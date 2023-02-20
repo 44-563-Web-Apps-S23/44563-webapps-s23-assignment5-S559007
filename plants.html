@@ -18,6 +18,22 @@
         
         <body>
             <h1>Plants by Chandra Venkata Vijaya Gopal Raju Kalidindi</h1>
+            <nav class="navbar navbar-expand-md navbar-light bg-light ">
+                <a class="navbar-brand" href="plants.html" >Interesting Plants</a>
+                <button  class="navbar-toggler " type="button " data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>  
+                <div class="collapse navbar-collapse" id="navbar-toggler">
+                  <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="basic.html">Basic</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="advanced.html">Advanced</a>
+                    </li>
+                  </ul>
+                </div> 
+            </nav>
                 
                 <div class="container">
                     <div class="row">
@@ -39,9 +55,125 @@
                     
                 </div>
                 <p>plant names row breaks first because we will zoom it until it breaks and we used md which means medium.</p>
+                <h4>Responsive Images</h4>
+        <div class="container">
+            <img class="img-fluid" src="Abies.jpg" height="250px" width="250px"/>
+            <img class="img-fluid" src="Ilex.jpg" height="250px" width="250px"/>
+            <img class="img-fluid" src="Kalmia.JPG" height="250px" width="250px"/>
+        </div>
+        <h4>Thumbnail Images</h4>
+        <div class="container">
+            <img class="img-thumbnail" src="Abies.jpg" height="250px" width="250px"/>
+            <img class="img-thumbnail" src="Ilex.jpg" height="250px" width="250px"/>
+            <img class="img-thumbnail" src="Kalmia.jpg" height="250px" width="250px"/>
+        </div>
+        <table class="table table-striped table-hover table-bordered table-sm" >
+
+            <thead class="table-primary">
+              <tr>
+                
+                <th scope="col">Letter</th>
+                <th scope="col">Plant</th>
+                <th scope="col">Mountain</th>
+                <th scope="col">Lake</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="table-secondary">
+                
+                <td>K</td>
+                <td>Kalmia</td>
+                <td>Kailash</td>
+                <td>Kamafusa</td>
+              </tr>
+              <tr class="table-success">
+                <td>A</td>
+                <td>Abies</td>
+                <td>Adams</td>
+                <td>Abaya</td>
+              </tr>
+              <tr class="table-secondary">
+                <td>L</td>
+                <td>Lamium</td>
+                <td>Langley</td>
+                <td>Ladoga</td>
+              </tr>
+              <tr class="table-success">
+                <td>I</td>
+                <td>Idesia</td>
+                <td>Illiniza</td>
+                <td>Ikeda</td>
+              </tr>
+              <tr class="table-secondary">
+                <td>D</td>
+                <td>Dahlia</td>
+                <td>Davis</td>
+                <td>Derg</td>
+              </tr>
+              <tr class="table-success">
+                <td>I</td>
+                <td>Ilex</td>
+                <td>Illimani</td>
+                <td>Ilzas</td>
+              </tr>
+            </tbody>
+          </table>
+          <label>Buttons</label>
+    <br>
+    <button class="btn">K</button>
+    <button class="btn">A</button>
+    <button class="btn">L</button>
+    <button class="btn">I</button>
+    <button class="btn">D</button>
+    <button class="btn">I</button>
+    <br>
+    <label>Button Groups</label>
+    <br>
+    <div>
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button type="button" class="btn btn-success">K</button>
+                <button type="button" class="btn btn-success">A</button>
+                <button type="button" class="btn btn-success">L</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button type="button" class="btn btn-warning">I</button>
+                <button type="button" class="btn btn-warning">D</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button type="button" class="btn btn-danger">I</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+        </button>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="basic.html">Basic Page</a>
+            <a class="dropdown-item" href="advanced.html">Advanced Page</a>
+        </div>
+    </div>
+    <br>
+    <form>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Plant</label>
+          <input type="text" placeholder="Enter your plant" class="form-control" id="exampleInputPassword1">
+          
+        </div>
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+                
+                
             
         </body>
-
-
-    
 </html>
